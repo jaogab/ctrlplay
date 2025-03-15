@@ -1,0 +1,21 @@
+html, body {
+  height: 100%; /* Garante que o body ocupe 100% da altura da tela */
+  margin: 0;    /* Remove as margens padrão */
+  display: flex; /* Ativa o Flexbox para o body */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     /* Centraliza verticalmente */
+  font-family: Arial, sans-serif; /* Fonte padrão */
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  /* Centraliza horizontalmente */
+  align-items: center;
+  /* Centraliza verticalmente */
+  height: 35vh;
+  /* Altura da tela inteira */
+  margin: 0;
+  /* Remove margens padrão */
+  width: 35vh;
+}
