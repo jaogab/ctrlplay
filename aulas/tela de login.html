@@ -23,8 +23,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             width: 300px;
             text-align: center;
-            background-color: transparent
-            
+            background-color: transparent;
         }
         .login-container h2 {
             margin-bottom: 20px;
@@ -38,24 +37,36 @@
             border-radius: 4px;
             background-color: transparent; /* Torna o fundo transparente */
             color: black; /* Cor do texto preta para contraste */
-            
         }
         .input-field:focus {
             border-color: #000000; /* Cor da borda ao focar no campo */
             outline: none;
-            
-            
+        }
+        .login-btn {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #000000;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .login-btn:hover {
+            background-color: #444444;
         }
     </style>
 </head>
 <body>
     <div class="login-container">
         <h2>Login</h2>
-        <form action="login-processar.php" method="POST">
+        <form action="login-processar.php" method="POST" onsubmit="window.location.href='C:\Users\Usuario\Desktop\ctrlplay\index.html';">
             <input type="text" class="input-field" name="username" placeholder="Usuário" required>
             <input type="password" class="input-field" name="password" placeholder="Senha" required>
-            
+            <button type="submit" class="login-btn">Login</button>
         </form>
+        
     </div>
 </body>
 </html>
