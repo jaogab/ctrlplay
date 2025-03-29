@@ -7,3 +7,12 @@
 .header a {
     color: black;
 }
+body{
+    background-image: url(./imagens/OIP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  /* A imagem cobre toda a área do elemento */
+    background-position: center; /* A imagem será centralizada */
+   
+
+
+}
